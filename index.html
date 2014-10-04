@@ -1,0 +1,63 @@
+
+<html>
+
+<head>
+
+<title>I Am Awesome</title>
+
+<link rel="stylesheet" href="bolsite.css">
+
+<script type="text/javascript" src="bol.js"></script>
+
+<style type = "text/css">
+    canvas { border: 1 px solid black; }
+</style>
+
+</head>
+
+<body onload = "sayHi()">
+
+<center><img src="ohhi.jpg" class="align-mid"></center>
+
+<p class="section">Random physics stuff</p>
+<ul>
+<li class="standard"><a href="interference.pdf">Interference</a></li>
+<li class="standard"><a href="doppler.pdf">Doppler Shift</a></li>
+<li class="standard"><a href="mirror-lens-interference.pdf">Light</a></li>
+<li class="standard"><a href="permcombo.pdf">Permutations & Combinations</a> (Useful for statistical mechanics!)</li>
+<li class="standard"><a href="ladderops.pdf">Ladder Operators</a> (Useful for quantum mechanics!)</li>
+</ul>
+
+<p class="section">2011 August 8</p>
+<p class="standard">Hoping to put up simulations from my work this summer soon. It's some cool stuff.</p>
+
+<p class="section"> 2011 July 17</p>
+<p class="standard">Blackjack is up!</p>
+<p class="standard">Notes:</p>
+<ul>
+<li class="standard">Graphics added!</li>
+<li class="standard">Insurance and splitting to be implemented soon.</li>
+</ul>
+
+<hr />
+
+<p id="money" class="standard">Money: </p>
+<p id="minbet" class="standard">Minimum bet: </p>
+<p class="standard">Your bet: <input type="text" id="bet" value="bet" /><input type="button" value="Start round" onclick="game.initialDeal()" id="start" /></p>
+<p id="dealerN" class="standard">The dealer has: </p><p id="dealer"></p>
+<p id="playerN" class="standard">You have: </p><p id="player"></p><p id="dubdown"></p>
+
+<input type="button" onclick="game.hit()" value="Hit" id="hit" />
+<input type="button" onclick="game.stay()" value="Stay" id="stay" />
+<input type="button" onclick="game.doubleDown()" value="Double Down" id="dd" />
+<input type="button" onclick="game.insurance()" value="Insurance" id="insurance" />
+<input type="button" onclick="game.splitHand()" value="Split" id="split" />
+<br />
+<input type="button" onclick="game.initialize()" value="Play again" id="restart">
+<p id="winner"></p>
+
+
+
+<script type="application/javascript" src="bj.js"></script>
+</body>
+</html>
