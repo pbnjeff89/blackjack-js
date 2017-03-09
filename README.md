@@ -11,7 +11,7 @@ FILES:
 index.html
 ============
 
-This was the front page of my website. It might be up at http://jeffdamasco.bol.ucla.edu/.
+This was the front page of my website. It's still up, but it's a dreadful, almost 90s-looking site that I'd rather not share. It hurts the eyes too much in comparison to the nice Bootstrap websites of today.
 Near the bottom of the body, there are HTML tags for the blackjack game.
 
 ============
